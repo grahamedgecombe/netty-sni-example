@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'io.netty', name: 'netty-transport', version: '4.0.14.Final'
+	compile group: 'io.netty', name: 'netty-handler', version: '4.0.14.Final'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8

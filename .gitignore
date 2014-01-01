@@ -1,0 +1,9 @@
+.*
+*~
+/build
+/out
+*.iml
+*.ipr
+*.iws
+!.git*
+!.mailmap
